@@ -1,0 +1,48 @@
+.Clear{
+	clear:both;
+}
+
+.postbox{
+}
+
+	.postbox tr{
+		margin:0px !important;
+		padding:0px !important;
+	}
+
+	.postbox td{
+		margin:0px !important;
+		padding:0 0 5px 0 !important;
+	}
+
+	.postbox th{
+		margin:0px !important;
+		padding:0px  !important;
+	}
+
+	.postbox tr th label{
+		font-weight:bold;
+	}
+
+.MetaBox #meta-horse-pedigree .MetaHorsePedigreeColumn{
+	float:left;
+	width: 24%;
+}
+	.MetaBox #meta-horse-pedigree .MetaHorsePedigreeColumn label{
+		text-align:center;
+		display:block;
+	}
+	.MetaBox #meta-horse-pedigree .MetaHorsePedigreeColumn input{
+		float:left;
+		width: 90%;
+		clear:left;
+	}
+	.MetaBox #meta-horse-pedigree .MetaHorsePedigreeColumn#meta-horse-pedigree-column1 input{
+		height: 198px;
+	}
+	.MetaBox #meta-horse-pedigree .MetaHorsePedigreeColumn#meta-horse-pedigree-column2 input{
+		height: 98px;
+	}
+	.MetaBox #meta-horse-pedigree .MetaHorsePedigreeColumn#meta-horse-pedigree-column3 input{
+		height: 48px;
+	}
