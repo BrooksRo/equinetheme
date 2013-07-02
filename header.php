@@ -17,6 +17,7 @@
 	<link rel="stylesheet" href="<?php echo bloginfo('template_url'); ?>/style-options.php" type="text/css" media="all" />
 	<!-- Javascript Files -->
 	<script type='text/javascript' src='<?php echo bloginfo('template_url'); ?>/js/javascript.php'></script>
+  <script type='text/javascript' src='<?php echo bloginfo('template_url'); ?>/js/jquery.colorbox-min.js'></script>
 	<!-- WordPress Stuff -->
 	<?php if ( is_singular() ) wp_enqueue_script( 'comment-reply' ); ?>
 	<?php wp_head(); ?>

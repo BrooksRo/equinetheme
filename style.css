@@ -6,6 +6,8 @@ Description: Plugins allowed and default styles added
 Text Domain: equinetheme
 */
 
+@import url("../equinetheme/colorbox.css");
+
 /************************************************************************
 #  FIXES
 *************************************************************************/
