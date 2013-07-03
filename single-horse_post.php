@@ -85,7 +85,7 @@
                     $caption = $attachment->post_excerpt;
                    	$description = $image->post_content;
 								?>
-                      <img src="<?php echo $thumbnail[0]; ?>" alt="<?php htmlentities(the_title(), ENT_QUOTES); ?>" />
+                      <img src="<?php echo $src[0]; ?>" alt="<?php htmlentities(the_title(), ENT_QUOTES); ?>" />
                       <?php if (false && !empty($caption)) { ?>
                         <div class="description"><?php echo $caption ?></div>
                       <?php } ?>
