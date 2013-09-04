@@ -10,7 +10,7 @@
 <head profile="http://gmpg.org/xfn/11">
 	<!-- Meta -->
 	<meta http-equiv="Content-Type" content="<?php bloginfo('html_type'); ?>; charset=<?php bloginfo('charset'); ?>" />
-	<title><?php wp_title('', true, 'right'); ?></title>
+	<title><?php !is_front_page() ? wp_title('', true, 'right') : bloginfo("name"); ?></title>
 	<link rel="icon" type="image/png" href="<?php echo $admin_general_favicon; ?>">
 	<!-- CSS -->
 	<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
